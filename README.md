@@ -31,7 +31,7 @@ node serve.js [host to proxy to] [port to listen on]
 * Todo: the_day_the_world_went_away - close connection without http response
 * More to come. - http://www.ninwiki.com/Halo_numbers
 
-## Caviots/Todos
+## Caveats/Todos
 * Literally hacked together while kids watched Tangled.
 * JS is not my primary language, only second node.js thing I've built.
 * Probability tweaks should be more easily configurable.
