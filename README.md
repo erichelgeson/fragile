@@ -1,4 +1,4 @@
-# The Fragile API Proxy
+# ![fragile](https://github.com/erichelgeson/fragile/raw/master/img/60px-Fragile_cover_big.jpg) The Fragile API Proxy
 A Nine Inch Nails themed API proxy for testing app resiliency.
 
 ## Rational:
@@ -17,18 +17,18 @@ http://api.example.com/v1/dogs?key=:key&expand=owner
 
 
 ### Run locally:
-node serve.js [host to proxy to] [port to listen on]
+`node serve.js [host to proxy to] [port to listen on]`
 
 ## Functions:
 
-* Y34RZ3R0R3M1X3D - Randomly change a few characters in the response.
-* downward_spiral - Add 12 seconds to the response
-* further_down_the_spiral - Add 2 minutes to the response
-* fixed - randomly give no error :)
-* broken - Mess with query string before sending
-* things_fall_apart - Random 400 error response
-* sin - no body
-* Todo: the_day_the_world_went_away - close connection without http response
+* ![Y34RZ3R0R3M1X3D](https://github.com/erichelgeson/fragile/raw/master/img/60px-Halo25_cover.jpg) Y34RZ3R0R3M1X3D - Randomly change a few characters in the response.
+* ![downward_spiral](https://github.com/erichelgeson/fragile/raw/master/img/60px-TDSoriginal.jpg) downward_spiral - Add 12 seconds to the response
+* ![fdts](https://github.com/erichelgeson/fragile/raw/master/img/60px-Fdts_cover.jpg) further_down_the_spiral - Add 2 minutes to the response
+* ![fixed](https://github.com/erichelgeson/fragile/raw/master/img/60px-Fixed.jpg) fixed - randomly give no error :)
+* ![broken](https://github.com/erichelgeson/fragile/raw/master/img/60px-Broken.jpg) broken - Mess with query string before sending
+* ![tfa](https://github.com/erichelgeson/fragile/raw/master/img/60px-Tfa_cover.jpg) things_fall_apart - Random 400 error response
+* ![sin](https://github.com/erichelgeson/fragile/raw/master/img/60px-Halo-4-US.jpg) sin - no body
+* ![tdtwww](https://github.com/erichelgeson/fragile/raw/master/img/60px-TDTWWA_Cover.jpg) Todo: the_day_the_world_went_away - close connection without http response
 * More to come. - http://www.ninwiki.com/Halo_numbers
 
 ## Caveats/Todos
