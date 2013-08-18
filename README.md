@@ -4,7 +4,9 @@ A Nine Inch Nails themed API proxy for testing app resiliency.
 ## Rational:
 When integrating apps to an API, they usually work, but when deploying those apps out to the public, they are behind web proxies, on unreliable/slow connections, and many other things you can't control.
 
-The Fragile API Proxy is an easy way to add random errors into your API calls. Nine Inch Nails album names are surprisingly good function names for this usecase.
+The Fragile API Proxy is an easy way to add random errors into your API calls. 
+
+Nine Inch Nails album names are surprisingly good function names for this usecase.
 
 ## Usage:
 Goal: Deploy to an API gateway and any request pre-pended with /fragile/ will have subtle random errors introduced into the request or response. 
