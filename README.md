@@ -1,10 +1,8 @@
 # The Fragile API Proxy
 A Nine Inch Nails themed API proxy for testing app resiliency.
 
-Idea I had to submit to a hackathon, but missed the hackathon due to a prod issue :/
-
 ## Rational:
-When integrating apps to an API, they usually work, but when deploying those apps out to the public, they are behind web proxies, on unreliable/slow connections, and many other things you can't control
+When integrating apps to an API, they usually work, but when deploying those apps out to the public, they are behind web proxies, on unreliable/slow connections, and many other things you can't control.
 
 The Fragile API Proxy is an easy way to add random errors into your API calls. Nine Inch Nails album names are surprisingly good function names for this usecase.
 
@@ -34,7 +32,7 @@ node serve.js [host to proxy to] [port to listen on]
 * More to come. - http://www.ninwiki.com/Halo_numbers
 
 ## Caviots/Todos
-Literally hacked together while kids watched Tangled.
-JS is not my primary language, only second node.js thing I've built.
-Probability tweaks should be more easily configurable.
-More methods
+* Literally hacked together while kids watched Tangled.
+* JS is not my primary language, only second node.js thing I've built.
+* Probability tweaks should be more easily configurable.
+* More methods
